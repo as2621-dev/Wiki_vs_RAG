@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme-aware chart tokens (reference/design-language.md neutrals). */
+:root {
+  --chart-surface: #ffffff;
+  --chart-ink: #0f172a;
+  --chart-muted: #64748b;
+  --chart-grid: #e2e8f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --chart-surface: #0b1220;
+    --chart-ink: #f1f5f9;
+    --chart-muted: #94a3b8;
+    --chart-grid: #1e293b;
+  }
+}
+
+body {
+  background: var(--chart-surface);
+  color: var(--chart-ink);
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+/* Chart element styling (SVG marks driven by inline style/data attrs in components). */
+.chart-grid {
+  stroke: var(--chart-grid);
+  stroke-width: 1;
+}
+.chart-tick-label {
+  fill: var(--chart-muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.chart-axis-title {
+  fill: var(--chart-muted);
+  font-size: 12px;
+}
+.chart-context-wall {
+  stroke: var(--chart-muted);
+  stroke-width: 1;
+  opacity: 0.45;
+}
+.chart-wall-label {
+  fill: var(--chart-muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+.chart-wall-sublabel {
+  fill: var(--chart-muted);
+  font-size: 10px;
+}

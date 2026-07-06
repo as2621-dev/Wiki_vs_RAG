@@ -1,0 +1,387 @@
+{
+  "generated_note": "measured to 50M tokens; 100M\u20131B extrapolated",
+  "series": {
+    "accuracy": [
+      {
+        "corpus_token_count": 100000,
+        "system": "plain_llm",
+        "accuracy": 0.9,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 500000,
+        "system": "plain_llm",
+        "accuracy": 0.9,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 1000000,
+        "system": "plain_llm",
+        "accuracy": 0.9,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 2000000,
+        "system": "plain_llm",
+        "accuracy": null,
+        "kind": "skipped_context"
+      },
+      {
+        "corpus_token_count": 100000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 500000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 1000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 5000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 50000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 100000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 200000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 500000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 1000000000,
+        "system": "rag",
+        "accuracy": 0.62,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 100000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 500000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 1000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 5000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 50000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 100000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 200000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 500000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 1000000000,
+        "system": "wiki",
+        "accuracy": 0.82,
+        "kind": "extrapolated"
+      }
+    ],
+    "cost": [
+      {
+        "corpus_token_count": 100000,
+        "system": "plain_llm",
+        "total_cost_usd": 0.001,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 500000,
+        "system": "plain_llm",
+        "total_cost_usd": 0.005,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 1000000,
+        "system": "plain_llm",
+        "total_cost_usd": 0.01,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 100000,
+        "system": "rag",
+        "total_cost_usd": 0.0015,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 500000,
+        "system": "rag",
+        "total_cost_usd": 0.0075,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 1000000,
+        "system": "rag",
+        "total_cost_usd": 0.015,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 5000000,
+        "system": "rag",
+        "total_cost_usd": 0.075,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 50000000,
+        "system": "rag",
+        "total_cost_usd": 0.75,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 100000000,
+        "system": "rag",
+        "total_cost_usd": 1.5000000000000002,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 200000000,
+        "system": "rag",
+        "total_cost_usd": 3.0000000000000004,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 500000000,
+        "system": "rag",
+        "total_cost_usd": 7.500000000000001,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 1000000000,
+        "system": "rag",
+        "total_cost_usd": 15.000000000000002,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 100000,
+        "system": "wiki",
+        "total_cost_usd": 0.2,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 500000,
+        "system": "wiki",
+        "total_cost_usd": 1.0,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 1000000,
+        "system": "wiki",
+        "total_cost_usd": 2.0,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 5000000,
+        "system": "wiki",
+        "total_cost_usd": 10.0,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 50000000,
+        "system": "wiki",
+        "total_cost_usd": 100.0,
+        "kind": "measured"
+      },
+      {
+        "corpus_token_count": 100000000,
+        "system": "wiki",
+        "total_cost_usd": 200.0,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 200000000,
+        "system": "wiki",
+        "total_cost_usd": 400.0,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 500000000,
+        "system": "wiki",
+        "total_cost_usd": 1000.0,
+        "kind": "extrapolated"
+      },
+      {
+        "corpus_token_count": 1000000000,
+        "system": "wiki",
+        "total_cost_usd": 2000.0,
+        "kind": "extrapolated"
+      }
+    ]
+  },
+  "answers": {
+    "q_lookup_01": {
+      "100000": {
+        "plain_llm": {
+          "answer_text": "plain_llm answer at 100000 tokens.",
+          "accuracy": 0.9,
+          "kind": "measured"
+        },
+        "rag": {
+          "answer_text": "rag answer at 100000 tokens.",
+          "accuracy": 0.62,
+          "kind": "measured"
+        },
+        "wiki": {
+          "answer_text": "wiki answer at 100000 tokens.",
+          "accuracy": 0.82,
+          "kind": "measured"
+        }
+      },
+      "500000": {
+        "plain_llm": {
+          "answer_text": "plain_llm answer at 500000 tokens.",
+          "accuracy": 0.9,
+          "kind": "measured"
+        },
+        "rag": {
+          "answer_text": "rag answer at 500000 tokens.",
+          "accuracy": 0.62,
+          "kind": "measured"
+        },
+        "wiki": {
+          "answer_text": "wiki answer at 500000 tokens.",
+          "accuracy": 0.82,
+          "kind": "measured"
+        }
+      },
+      "1000000": {
+        "plain_llm": {
+          "answer_text": "plain_llm answer at 1000000 tokens.",
+          "accuracy": 0.9,
+          "kind": "measured"
+        },
+        "rag": {
+          "answer_text": "rag answer at 1000000 tokens.",
+          "accuracy": 0.62,
+          "kind": "measured"
+        },
+        "wiki": {
+          "answer_text": "wiki answer at 1000000 tokens.",
+          "accuracy": 0.82,
+          "kind": "measured"
+        }
+      },
+      "2000000": {
+        "plain_llm": {
+          "answer_text": "",
+          "accuracy": null,
+          "kind": "skipped_context"
+        }
+      },
+      "5000000": {
+        "rag": {
+          "answer_text": "rag answer at 5000000 tokens.",
+          "accuracy": 0.62,
+          "kind": "measured"
+        },
+        "wiki": {
+          "answer_text": "wiki answer at 5000000 tokens.",
+          "accuracy": 0.82,
+          "kind": "measured"
+        }
+      },
+      "50000000": {
+        "rag": {
+          "answer_text": "rag answer at 50000000 tokens.",
+          "accuracy": 0.62,
+          "kind": "measured"
+        },
+        "wiki": {
+          "answer_text": "wiki answer at 50000000 tokens.",
+          "accuracy": 0.82,
+          "kind": "measured"
+        }
+      }
+    }
+  },
+  "meta": [
+    {
+      "system": "plain_llm",
+      "accuracy_fit_method": "not extrapolated: system hit the context wall (skipped_context is its honest end)",
+      "cost_fit_method": "not extrapolated: system hit the context wall (skipped_context is its honest end)",
+      "measured_boundary_token_count": 1000000,
+      "measured_point_count": 3,
+      "low_confidence": false,
+      "cost_domination_note": ""
+    },
+    {
+      "system": "rag",
+      "accuracy_fit_method": "least-squares: accuracy = m*ln(tokens) + b with m=0, b=0.62",
+      "cost_fit_method": "least-squares: total_cost_usd = m*tokens + b with m=1.5e-08, b=-2.78e-17",
+      "measured_boundary_token_count": 50000000,
+      "measured_point_count": 5,
+      "low_confidence": false,
+      "cost_domination_note": "cost fit dominated by a single point at 50M tokens (88% of measured cost) \u2014 treat the slope as indicative, not precise"
+    },
+    {
+      "system": "wiki",
+      "accuracy_fit_method": "least-squares: accuracy = m*ln(tokens) + b with m=0, b=0.82",
+      "cost_fit_method": "least-squares: total_cost_usd = m*tokens + b with m=2e-06, b=0",
+      "measured_boundary_token_count": 50000000,
+      "measured_point_count": 5,
+      "low_confidence": false,
+      "cost_domination_note": "cost fit dominated by a single point at 50M tokens (88% of measured cost) \u2014 treat the slope as indicative, not precise"
+    }
+  ],
+  "summary": {
+    "max_measured_token_count": 50000000,
+    "extrapolated_to_token_count": 1000000000,
+    "wiki_to_rag_cost_ratio_at_target": 133.33333333333331
+  }
+}
