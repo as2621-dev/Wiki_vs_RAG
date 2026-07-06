@@ -7,6 +7,7 @@
 
 import rawResults from "../../public/results.json";
 import { AccuracyChart } from "@/components/AccuracyChart";
+import { AnswerExplorer } from "@/components/AnswerExplorer";
 import { CostChart } from "@/components/CostChart";
 import { EmptyState } from "@/components/EmptyState";
 import { parseResults } from "@/lib/loadResults";
@@ -31,6 +32,7 @@ export default function HomePage(): React.JSX.Element {
         <>
           <AccuracyChart points={loaded.payload.series.accuracy} />
           <CostChart points={loaded.payload.series.cost} />
+          <AnswerExplorer answers={loaded.payload.answers ?? {}} />
         </>
       )}
     </main>
