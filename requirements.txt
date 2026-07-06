@@ -10,3 +10,6 @@ playwright>=1.44.0
 pydantic>=2.7.0
 pydantic-settings>=2.3.0
 structlog>=24.1.0
+# Token axis for the cumulative corpus loader (corpus_loader.py): cl100k_base BPE, a deterministic
+# offline proxy for the LLM token count. Injectable, so tests need neither the package nor its vocab.
+tiktoken>=0.7.0
