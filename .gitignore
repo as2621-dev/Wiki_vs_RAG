@@ -34,6 +34,9 @@ venv/
 .coverage
 htmlcov/
 
+# ─── Wiki-path resumable ingest checkpoints (machine-local run state) ──
+.wiki_checkpoints/
+
 # ─── Claude Code runtime / machine-local ──────────────────
 .claude/scheduled_tasks.lock
 .claude/settings.local.json

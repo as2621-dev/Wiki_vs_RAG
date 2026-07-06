@@ -50,6 +50,10 @@ class BenchmarkSettings(BaseSettings):
         default="", description="Absolute path to the JSON from `./llmwiki mcp-config <dir>`"
     )
     claude_cli_binary: str = Field(default="claude", description="Claude Code CLI binary name/path")
+    wiki_checkpoint_dir: str = Field(
+        default=".wiki_checkpoints",
+        description="Directory holding the wiki path's resumable per-size ingest checkpoint JSON files",
+    )
 
 
 @lru_cache
