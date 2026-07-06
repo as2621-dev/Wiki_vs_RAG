@@ -39,6 +39,12 @@ class BenchmarkSettings(BaseSettings):
     chunk_size_chars: int = Field(default=2400, description="Character length of each RAG chunk")
     chunk_overlap_chars: int = Field(default=300, description="Character overlap between chunks")
 
+    # ─── Movie-script corpus source ───────────────────────────
+    movie_scripts_kaggle_dump_path: str = Field(
+        default="",
+        description="Local dir of <book_key>.txt scripts from the Kaggle 'Movie Transcripts 59K' dump (fallback source)",
+    )
+
     # ─── Wiki (llmwiki) path ──────────────────────────────────
     llmwiki_mcp_config_path: str = Field(
         default="", description="Absolute path to the JSON from `./llmwiki mcp-config <dir>`"
