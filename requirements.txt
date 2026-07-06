@@ -1,0 +1,8 @@
+# Wiki vs RAG benchmark harness — Python 3.12+
+anthropic>=0.49.0
+voyageai>=0.3.0
+pinecone>=5.0.0
+httpx>=0.27.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+structlog>=24.1.0
